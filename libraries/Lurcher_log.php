@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 Class Lurcher_log {
 
 	public function log($code,$user_id,$description,$level,$user){
-		date_default_timezone_set("Asia/manila"); // for seeting timezone
+		date_default_timezone_set("Asia/manila"); // for setting timezone
 
 		$CI =& get_instance();
 		$CI->load->model('lurcher_log_model');
