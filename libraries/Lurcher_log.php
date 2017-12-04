@@ -7,7 +7,7 @@ Class Lurcher_log {
 		date_default_timezone_set("Asia/manila"); // for setting timezone
 
 		$CI =& get_instance();
-		$CI->load->model('lurcher_log_model');
+		$CI->load->model('lurcher_log_model', '', true);
 
 		$date = date("Y-m-j");
 		$time = date("h:i:sa");
