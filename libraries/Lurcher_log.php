@@ -12,6 +12,6 @@ Class Lurcher_log {
 		$date = date("Y-m-j");
 		$time = date("h:i:sa");
 
-		$CI->lurcher_log_model->insert_log($code,$user_id,$description,$level,$user,$date,$time);
+		$CI->lurcher_log_model->insert_log($code, $user_id, $description, $level, $user, $date, $time);
 	}
 }

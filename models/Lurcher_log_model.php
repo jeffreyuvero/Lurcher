@@ -18,6 +18,6 @@ Class Lurcher_log_model extends CI_model{
 			'date' => $date, // date 
 			'time' => $time,  // time 
 		);
-		$this->db->insert('log',$param);
+		$this->db->insert('log', $param);
 	}
 }
