@@ -1,11 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `lurcher` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `lurcher`;
--- MySQL dump 10.13  Distrib 5.6.13, for Win32 (x86)
---
--- Host: localhost    Database: lurcher
--- ------------------------------------------------------
--- Server version	5.6.16
-
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
